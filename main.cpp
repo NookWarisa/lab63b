@@ -2,8 +2,8 @@
 int PIR_pin = 0;
 int PWM_pin = 2;
 
-long time_delay = 10000;  // lamp on time (ms) 1 mimute = 60000ms
-int dim_delay = 20; // dim speed adjust ระยะในการรี่ไฟ
+long time_delay = 10000; 
+int dim_delay = 20; 
 
 long time_old = 0; 
 bool on_state = 0;  
