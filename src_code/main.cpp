@@ -1,4 +1,4 @@
-```javascript
+
 int PIR_pin = 0;
 int PWM_pin = 2;
 
@@ -55,4 +55,4 @@ void loop()
   analogWrite(PWM_pin,inc_val);
   Serial.println(inc_val);
 }
-```
+
